@@ -2,7 +2,7 @@ Bacterie[] colonie;
 
 void setup() {
   size(500, 500);
-  colonie = new Bacterie[1500];
+  colonie = new Bacterie[1000];
   for (int i = 0; i < colonie.length; i++)
     colonie[i] = new Bacterie((int)(sqrt(62500-(int)(Math.random()*70)*(int)(Math.random()*70))), (int)(sqrt(50000-(int)(Math.random()*70)*(int)(Math.random()*70))));
   //(250 + (int)(Math.random()*300) -150 ,250 + (int)(Math.random()*300) -150);
